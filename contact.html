@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<style>
+
+.side-bar {
+position: fixed;
+top:0;
+left:auto;
+right: 0;
+width:200px;
+height:100vh;
+background-color: black;
+}
+.side-bar a{
+    display: block;
+    color:burlywood;
+padding: 10px;
+list-style: none;
+text-decoration: none;
+}
+.logo {
+    display: flex;
+}
+.side-bar a:hover{
+transition: 2.5s ease;
+color:brown;
+}
+body{
+    background-color: black;
+}
+.contact-info{
+    margin-left: 40px;
+}
+h1{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:35px;
+    margin-left: 50px;
+}
+p{
+     color:aliceblue;
+     font-size: 20px;
+    
+}
+h2{
+    color:aliceblue
+}
+.text{
+    background-color: rgba(44, 41, 41, 0.49);
+    width:100%;
+    height:40px;
+  color:white;
+}
+.textarea{
+       background-color: rgba(44, 41, 41, 0.49);
+    width: 100%;
+    height: 60px;
+      color:white;
+}
+#message{
+          background-color: rgba(44, 41, 41, 0.49);
+    width: 100%;
+    height: 200px; 
+      color:white;
+}
+.btn{
+   background-color:rgb(204, 20, 20);
+    margin-top: 4%;
+    width: 205px;
+height: 50px;
+border-radius: 50px;
+box-shadow: 40px;
+}
+.btn:hover{
+background-color:rgb(189, 83, 83);
+}
+.p{
+    font-size: 20px;
+    text-align: center;
+}
+.contact-info p >a{
+    color: brown;
+}
+.side-bar h4{
+   margin-top: 100%;
+    margin-left: 8px;
+    color:#D4AF37;
+    font-style: italic;
+}
+.side-bar h4:hover{
+  transition: 5s ease;
+color:brown;
+
+}
+</style>
+</head>
+<body>
+    <div class="side-bar">
+    <a href="index.html"><li>HOME</li></a>
+        <a href="index.html"><li>PHOTOS</li></a>
+                <a href="#"><li>BIO</li></a>
+                        <a href="contact.html"><li>CONTACT</li></a>
+                                <a href="#"><li>BLOG</li></a>
+        <div class="logo">
+        <a><i class="fa-brands fa-facebook"></i></a>
+        <a><i class="fa-brands fa-instagram"></i></a>
+        <a><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <h4>MADE BY SARIB KHAN</h4>
+</div>
+<div class="contact-info">
+<h1>Contact Me</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicin
+    g elit. Ipsa explicabo quasi <br>cum, <a href="#" color="red"> necessitatibus </a>laudan tium neque at veniam it
+    aque atque necessitatibus temporibus! Beatae sit<br> soluta magni  <a href="#" color="red"> necessitatibus </a>neque autem, susci
+    pit dolorem, quo alias.</p>
+    <h2>First Name</h2>
+    <input type="text" placeholder="enter your first name" class="text">
+      <h2>last Name</h2>
+    <input type="text" placeholder="enter your last name" class="text">
+      <h2>Email</h2>
+    <input type="text" placeholder="enter your email-address" class="text">
+      <h2>Subject</h2>
+    <input type="text" class="textarea">
+    <h2>Message</h2>
+ <label for="message">YoUR message</label>
+ <textarea id="message" name="message" row="5" cols="30" placeholder="enter your message here...."></textarea>
+ <button class="btn">SEND MESSAGE</button>
+ <p class="p"> Copyright ©2026 All rights reserved | </p>
+</div>
+</body>
+</html>
